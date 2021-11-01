@@ -1,1 +1,235 @@
-/* No CSS *//*# sourceMappingURL=home.css.map */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-moz-selection {
+  background: #222;
+  color: white;
+}
+
+::selection {
+  background: #222;
+  color: white;
+}
+
+::-moz-selection {
+  background: #222;
+  color: white;
+}
+
+body * {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  /* am i doing this wrong? */
+}
+
+body {
+  background: radial-gradient(rgba(219, 233, 240, 0.7), rgba(255, 255, 255, 0)) no-repeat, linear-gradient(60deg, purple, dodgerblue, violet);
+  color: #222;
+  font-family: "Gabriela", serif;
+  -webkit-perspective: 70em;
+          perspective: 70em;
+  /*in your face*/
+  overflow-y: hidden;
+}
+
+h1,
+p {
+  margin: 5% 0;
+}
+
+.book {
+  height: 90%;
+  width: 80%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(179, 128, 77, 0.6)), color-stop(rgba(71, 51, 31, 0.9)), color-stop(90%, rgba(179, 128, 77, 0.4))), url("http://inspirationhut3.inspirationhut.netdna-cdn.com/wp-content/uploads/2012/11/Old-Paper-Texture-3.jpg");
+  background-image: linear-gradient(90deg, rgba(179, 128, 77, 0.6), rgba(71, 51, 31, 0.9), rgba(179, 128, 77, 0.4) 90%), url("http://inspirationhut3.inspirationhut.netdna-cdn.com/wp-content/uploads/2012/11/Old-Paper-Texture-3.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border: 3px solid #38332e;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 150px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 150px rgba(0, 0, 0, 0.4);
+}
+
+.page {
+  height: 100%;
+  width: 50%;
+  line-height: 1.5;
+  border-right: 10px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  /*animation: unflip .3s linear;*/
+}
+
+[class*="side"] {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #d1b394;
+  background-image: url("http://inspirationhut3.inspirationhut.netdna-cdn.com/wp-content/uploads/2012/11/Old-Paper-Texture-3.jpg");
+  background-size: 100% 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: auto;
+  padding: 5% 8%;
+}
+
+.side-1 {
+  z-index: 2;
+  -webkit-box-shadow: inset 50px 0 50px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 50px 0 50px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.side-2 {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-box-shadow: inset -50px 0 50px rgba(0, 0, 0, 0.5);
+          box-shadow: inset -50px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.flipped > .side-1 {
+  -webkit-box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.8);
+          box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.8);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.flipped > [class*="side"] {
+  pointer-events: auto;
+}
+
+.page:after {
+  width: 100px;
+  height: 50px;
+  background-color: #555;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -100px;
+  margin: auto;
+  color: white;
+  text-shadow: 0 -1px 0 #222;
+  line-height: 50px;
+  text-align: center;
+  font-family: monospace;
+  content: "next-page";
+  -webkit-animation: hide 0.8s linear;
+          animation: hide 0.8s linear;
+}
+
+.page.flipped:after {
+  content: "prev-page";
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  pointer-events: auto;
+}
+
+/* to hide on flip animation */
+@-webkit-keyframes hide {
+  0% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hide {
+  0% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flipped {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  pointer-events: none;
+  /*animation: flip .3s linear;
+  animation-fill-mode: forwards;*/
+}
+
+.no-anim,
+.no-anim:after {
+  -webkit-animation: none;
+          animation: none;
+  /* disable animation when page loads */
+}
+
+@-webkit-keyframes flip {
+  to {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+}
+
+@keyframes flip {
+  to {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+}
+
+@-webkit-keyframes unflip {
+  from {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+  to {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes unflip {
+  from {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+  to {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+/*# sourceMappingURL=home.css.map */
