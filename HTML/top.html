@@ -8,17 +8,24 @@
     <title>Top</title>
   </head>
   <body>
+    <audio
+      class="music"
+      id="music"
+      type="audio/mp3"
+      src="../audio/Clock-Second_Hand02-5(Reverb-Loop-2).mp3"
+    ></audio>
+
+    <img
+      id="top"
+      class="top"
+      src="../IMAGE/TOP/cover.png"
+      onclick="welcome()"
+    />
     <a href="../HTML/home.html">
-      <img
-        id="top"
-        class="top"
-        src="../IMAGE/TOP/cover.png"
-        onclick="welcome()"
-      />
       <div class="clockAll">
-        <img class="clock" src="../IMAGE/TOP/tokei.png">
-        <img class="long" src="../IMAGE/TOP/tokeilong.png" />
-        <img class="short" src="../IMAGE/TOP/tokeishort.png" />
+        <img id="clock" class="clock" src="../IMAGE/TOP/tokei.png" />
+        <img id="long" class="long" src="../IMAGE/TOP/tokeilong.png" />
+        <img id="short" class="short" src="../IMAGE/TOP/tokeishort.png" />
       </div>
     </a>
     <script src="../JS/top.js"></script>

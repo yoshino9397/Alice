@@ -4,12 +4,20 @@ body {
   background-color: black;
 }
 
+.music {
+  margin: 0%;
+  padding: 0%;
+  position: absolute;
+  z-index: 222;
+  background-color: aliceblue;
+}
+
 .top {
   margin: 3.5% 0 0 29%;
   padding: 0;
   width: 36%;
   position: absolute;
-  z-index: 1;
+  z-index: 4;
 }
 
 .clock {
@@ -17,7 +25,10 @@ body {
   padding: 0%;
   width: 48%;
   position: absolute;
-  z-index: 3;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: .8s;
+  transition: .8s;
 }
 
 .short {
@@ -25,9 +36,12 @@ body {
   padding: 0%;
   width: 10%;
   position: absolute;
-  z-index: 4;
+  opacity: 0;
+  z-index: 2;
   -webkit-transform: rotate(-113deg);
           transform: rotate(-113deg);
+  -webkit-transition: 1.3s;
+  transition: 1.3s;
 }
 
 .long {
@@ -35,8 +49,11 @@ body {
   padding: 0%;
   width: 11%;
   position: absolute;
-  z-index: 4;
+  opacity: 0;
+  z-index: 2;
   -webkit-transform: rotate(-190deg);
           transform: rotate(-190deg);
+  -webkit-transition: 1.3s;
+  transition: 1.3s;
 }
 /*# sourceMappingURL=top.css.map */
