@@ -1,48 +1,67 @@
-body{
+body {
   margin: 0%;
   padding: 0%;
   background-color: black;
 }
-.music{
+.music {
   margin: 0%;
   padding: 0%;
   position: absolute;
   z-index: 222;
   background-color: aliceblue;
 }
-.top{
-margin: 3.5% 0 0 29%;
-padding: 0;
-width: 36%;
-position: absolute;
-z-index: 4;
+.top {
+  margin: 3.5% 0 0 29%;
+  padding: 0;
+  width: 36%;
+  position: absolute;
+  z-index: 4;
 }
-.clock{
+
+.clock {
   margin: -7% 0 0 22%;
   padding: 0%;
   width: 48%;
+  height: var(--long-height);
   position: absolute;
   opacity: 0;
   z-index: 1;
-  transition: .8s;
+  transition: 0.8s;
 }
-.short{
-  margin: 23% 0 0 41.5%;
+.short {
+  margin: 14% 0 0 31%;
   padding: 0%;
-  width: 10%;
+  width: 32%;
   position: absolute;
   opacity: 0;
   z-index: 2;
-  transform: rotate(-113deg);
   transition: 1.3s;
+  animation: short 60s infinite steps(400);
 }
-.long{
-  margin: 20% 0 0 44.5%;
+.long {
+  margin: 14% 0 0 31%;
   padding: 0%;
-  width: 11%;
+  width: 32%;
   position: absolute;
   opacity: 0;
   z-index: 2;
-  transform: rotate(-190deg);
   transition: 1.3s;
+  animation: long 60s infinite steps(60);
+}
+
+@keyframes long {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-355deg);
+  }
+}
+@keyframes short {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
