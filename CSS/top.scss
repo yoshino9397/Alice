@@ -7,4 +7,29 @@ body{
 margin: 3.5% 0 0 29%;
 padding: 0;
 width: 36%;
+position: absolute;
+z-index: 1;
+}
+.clock{
+  margin: -7% 0 0 22%;
+  padding: 0%;
+  width: 48%;
+  position: absolute;
+  z-index: 3;
+}
+.short{
+  margin: 23% 0 0 41.5%;
+  padding: 0%;
+  width: 10%;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(-113deg);
+}
+.long{
+  margin: 20% 0 0 44.5%;
+  padding: 0%;
+  width: 11%;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(-190deg);
 }
