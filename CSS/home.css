@@ -59,14 +59,14 @@ h1 {
   margin: 8% 0 0 7%;
   padding: 0%;
   font-size: 3.5em;
-  font-family: 'Fredericka the Great';
+  font-family: "Fredericka the Great";
 }
 
 h2 {
   margin: 2% 0 0 7%;
   padding: 0%;
   font-size: 2.5em;
-  font-family: 'Fredericka the Great';
+  font-family: "Fredericka the Great";
 }
 
 p {
@@ -157,14 +157,14 @@ p {
   text-shadow: 0 -1px 0 #222;
   line-height: 50px;
   text-align: center;
-  font-family: 'Fredericka the Great';
-  content: "next-page";
+  font-family: "Fredericka the Great";
+  content: "Next";
   -webkit-animation: hide 0.8s linear;
           animation: hide 0.8s linear;
 }
 
 .page.flipped:after {
-  content: "prev-page";
+  content: "Prev";
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   pointer-events: auto;
@@ -257,7 +257,14 @@ p {
   margin: 13% 0 0 18%;
   padding: 0%;
   font-size: 3em;
-  font-family: 'Fredericka the Great';
+  font-family: "Fredericka the Great";
+}
+
+.aboutEng {
+  margin: 2% 0 0 0%;
+  padding: 1% 0;
+  font-size: 1.9em;
+  font-family: "Bilbo Swash Caps";
 }
 
 .madhatter {
@@ -272,6 +279,13 @@ p {
   margin: 13% 0 0 18%;
   padding: 0%;
   font-size: 3.3em;
-  font-family: 'Fredericka the Great';
+  font-family: "Fredericka the Great";
+}
+
+.mainchara {
+  margin: 8% 0 0 18%;
+  padding: 0%;
+  font-size: 2.3em;
+  font-family: "Fredericka the Great";
 }
 /*# sourceMappingURL=home.css.map */

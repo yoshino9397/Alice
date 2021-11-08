@@ -43,18 +43,18 @@ body {
   perspective: 60em; /*in your face*/
   overflow-y: hidden;
 }
-h1{
+h1 {
   margin: 8% 0 0 7%;
   padding: 0%;
   font-size: 3.5em;
-  font-family: 'Fredericka the Great';
+  font-family: "Fredericka the Great";
 }
 
-h2{
-  margin:2% 0 0 7%;
+h2 {
+  margin: 2% 0 0 7%;
   padding: 0%;
   font-size: 2.5em;
-  font-family: 'Fredericka the Great';
+  font-family: "Fredericka the Great";
 }
 p {
   margin: 5% 0;
@@ -136,12 +136,12 @@ p {
   text-shadow: 0 -1px 0 #222;
   line-height: 50px;
   text-align: center;
-  font-family: 'Fredericka the Great';
-  content: "next-page";
+  font-family: "Fredericka the Great";
+  content: "Next";
   animation: hide 0.8s linear;
 }
 .page.flipped:after {
-  content: "prev-page";
+  content: "Prev";
   transform: rotateY(180deg);
   pointer-events: auto;
 }
@@ -182,9 +182,8 @@ p {
   }
 }
 
-
 /////////////////-----------------------Detail-----------///////////////
-.alicefall{
+.alicefall {
   margin: 18% 0 0 0;
   padding: 0%;
   position: absolute;
@@ -192,22 +191,34 @@ p {
   width: 100%;
 }
 
-.about{
-  margin:13% 0 0 18%;
+.about {
+  margin: 13% 0 0 18%;
   padding: 0%;
   font-size: 3em;
-  font-family: 'Fredericka the Great';
+  font-family: "Fredericka the Great";
 }
-.madhatter{
+.aboutEng {
+  margin: 2% 0 0 0%;
+  padding: 1% 0;
+  font-size: 1.9em;
+  font-family: "Bilbo Swash Caps";
+}
+.madhatter {
   margin: 27% 0 0 0;
   padding: 0%;
   position: absolute;
   z-index: 33;
   width: 100%;
 }
-.character{
-  margin:13% 0 0 18%;
+.character {
+  margin: 13% 0 0 18%;
   padding: 0%;
   font-size: 3.3em;
-  font-family: 'Fredericka the Great';
+  font-family: "Fredericka the Great";
+}
+.mainchara {
+  margin: 8% 0 0 18%;
+  padding: 0%;
+  font-size: 2.3em;
+  font-family: "Fredericka the Great";
 }
