@@ -266,9 +266,9 @@ a {
 }
 
 .aboutEng {
-  margin: 2% 0 0 0%;
-  padding: 1% 0;
-  font-size: 1.9em;
+  margin: 7% 0 0 0%;
+  padding: 0;
+  font-size: 1.8em;
   font-family: "Bilbo Swash Caps";
 }
 
@@ -317,7 +317,7 @@ a {
 }
 
 .world h2 {
-  margin: 5% 0 0 6%;
+  margin: 6% 0 0 6%;
   padding: 0%;
   font-size: 2.8em;
   font-family: "Fredericka the Great";
@@ -325,16 +325,91 @@ a {
 }
 
 .world p {
-  margin: 1% 0 0 0;
+  margin: 3% 0 0 0;
   padding: 0;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-family: "Bilbo Swash Caps";
 }
 
 .world .king {
-  margin: 3% 0 0% 3%;
+  margin: 4% 0 0% 3%;
   padding: 0%;
   font-size: 1.8em;
   font-family: "Fredericka the Great";
+}
+
+.alice .nokori {
+  margin: 5% 0 0% 7%;
+  padding: 0%;
+  font-size: 1.7em;
+  font-family: "Bilbo Swash Caps";
+}
+
+.alice h3 {
+  margin: 3% 0 0% 7%;
+  padding: 0%;
+  font-size: 2.3em;
+  font-family: "Fredericka the Great";
+}
+
+.alice p {
+  margin: 1% 0 0 2%;
+  padding: 0;
+  font-size: 1.7em;
+  font-family: "Bilbo Swash Caps";
+}
+
+.special h2 {
+  margin: 6% 0 0 27%;
+  padding: 0%;
+  font-size: 3.5em;
+  font-family: "Fredericka the Great";
+}
+
+.special h3 {
+  margin: 7% 0 0% 4%;
+  padding: 0%;
+  font-size: 2.2em;
+  font-family: "Fredericka the Great";
+}
+
+.special ul {
+  list-style: none;
+  margin: 10% 0 0 20%;
+  padding: 0%;
+}
+
+.special .works {
+  font-size: 2em;
+  font-family: "Bilbo Swash Caps";
+  margin: 3% 0 0 -9%;
+  padding: 0%;
+}
+
+.special .name {
+  font-size: 2.2em;
+  font-family: "Bilbo Swash Caps";
+  margin: 2% 0 8% 0;
+  padding: 0%;
+}
+
+.with h3 {
+  margin: 31% 0 0% 6%;
+  padding: 0%;
+  font-size: 2.5em;
+  font-family: "Fredericka the Great";
+}
+
+.with ul {
+  list-style: none;
+  margin: 9% 0 0 20%;
+  padding: 0%;
+}
+
+.with li {
+  font-size: 2em;
+  font-family: "Bilbo Swash Caps";
+  margin: 5% 0 0 0;
+  padding: 0%;
 }
 /*# sourceMappingURL=home.css.map */
