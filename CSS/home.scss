@@ -124,23 +124,24 @@ p {
   pointer-events: auto;
 }
 .page:after {
-  width: 100px;
-  height: 50px;
-  background-color: #555;
+  width: 25%;
+  height: 100%;
+  background-image: url(../IMAGE/HOME/AliceNext.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   bottom: 0;
-  right: -100px;
+  right: -23.5%;
   margin: auto;
-  color: white;
-  text-shadow: 0 -1px 0 #222;
-  line-height: 50px;
-  text-align: center;
-  font-family: "Fredericka the Great";
+  color: rgba(255, 255, 255, 0);
   content: "Next";
   animation: hide 0.8s linear;
 }
 .page.flipped:after {
+  background-image: url(../IMAGE/HOME/AlicePrev.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   content: "Prev";
   transform: rotateY(180deg);
   pointer-events: auto;
@@ -195,11 +196,24 @@ a {
 }
 
 .story {
+  h2{
   margin: 13% 0 0 30%;
   padding: 0%;
   font-size: 3.7em;
   letter-spacing: 0.1em;
   font-family: "Fredericka the Great";
+  }
+  .img1{
+    position: absolute;
+    margin: 55% 0 0 0;
+    padding: 0%;
+  }
+  .img2{
+    position: absolute;
+    margin: 58% 0 0 10%;
+    padding: 0%;
+    filter: sepia(30%);
+  }
 }
 .aboutEng {
   margin: 7% 0 0 0%;
@@ -221,26 +235,41 @@ a {
   font-family: "Fredericka the Great";
 }
 .mainchara {
+  img{
+    position: absolute;
+    width: 40%;
+    margin: 26% 0 0 50%;
+    padding: 0%;
+    z-index: 10;
+    filter: sepia(30%);
+  }
   h2 {
+    position: absolute;
     margin: 6% 0 0 21%;
     padding: 0%;
     font-size: 2.5em;
     font-family: "Fredericka the Great";
+    z-index: 12;
   }
   h3 {
-    margin: 6% 0 0 5%;
+    position: absolute;
+    margin: 27% 0 0 5%;
     padding: 0%;
     font-size: 1.7em;
     font-family: "Fredericka the Great";
+    z-index: 12;
   }
   p {
-    margin: 3% 0 0 0;
+    position: absolute;
+    margin: 40% 0 0 0;
     padding: 2% 0;
     font-size: 1.9em;
     font-family: "Bilbo Swash Caps";
+    z-index: 12;
   }
   a {
-    margin: 10% 0 0% 53%;
+    position: absolute;
+    margin: 133% 0 0% 53%;
     padding: 0%;
     color: rgb(43, 27, 40);
     font-size: 1.7em;
