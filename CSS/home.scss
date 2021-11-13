@@ -297,6 +297,13 @@ a {
     font-size: 1.8em;
     font-family: "Fredericka the Great";
   }
+  .img1{
+    position: absolute;
+    margin: -15% 0 0 30%;
+    padding: 0%;
+    width: 45%;
+    transform: rotate(100deg);
+  }
 }
 .alice {
   .nokori {
@@ -316,6 +323,12 @@ a {
     padding: 0;
     font-size: 1.7em;
     font-family: "Bilbo Swash Caps";
+  }
+  .pink{
+    position: absolute;
+    width: 40%;
+    margin: -15% 0 0 20%;
+    padding: 0%;
   }
 }
 .special {
@@ -345,8 +358,22 @@ a {
   .name{
     font-size: 2.2em;
     font-family: "Bilbo Swash Caps";
-    margin: 2% 0 8% 0;
+    margin: 4% 0 8% 0;
     padding: 0%;
+  }
+  .img1{
+    position: absolute;
+    margin: 5% 0 0 0;
+    padding: 0%;
+    width: 30%;
+    filter: brightness(20%);
+  }
+  .img2{
+    position: absolute;
+    margin: -15% 0 0 10%;
+    padding: 0%;
+    width: 40%;
+    transform: rotate(180deg);
   }
 }
 .with {
