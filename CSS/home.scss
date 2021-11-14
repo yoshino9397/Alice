@@ -286,23 +286,34 @@ a {
     text-align: center;
   }
   p {
-    margin: 3% 0 0 0;
+    margin: 8% 0 0 0;
     padding: 0;
     font-size: 1.7em;
     font-family: "Bilbo Swash Caps";
   }
   .king {
+    position: absolute;
     margin: 4% 0 0% 3%;
-    padding: 0%;
+    padding: 0;
     font-size: 1.8em;
     font-family: "Fredericka the Great";
+    z-index: 12;
+  }
+  .kingp{
+    position: absolute;
+    margin: 15% 0 0 0;
+    padding: 0;
+    font-size: 1.7em;
+    font-family: "Bilbo Swash Caps";
+    z-index: 12;
   }
   .img1{
     position: absolute;
-    margin: -15% 0 0 30%;
+    margin: 0% 0 0 40%;
     padding: 0%;
-    width: 45%;
-    transform: rotate(100deg);
+    width: 30%;
+    transform: rotate(90deg);
+    z-index: 10;
   }
 }
 .alice {
@@ -393,5 +404,19 @@ a {
     font-family: "Bilbo Swash Caps";
     margin: 5% 0 0 0;
     padding: 0%;
+  }
+  .haguruma{
+    position: absolute;
+    margin: -25% 0 0 60%;
+    padding: 0%;
+    width: 37%;
+    transform: rotate(-80deg);
+  }
+  .shizuku{
+    position: absolute;
+    margin: 10% 0 0 0%;
+    padding: 0%;
+    width: 37%;
+    transform: rotate(30deg);
   }
 }

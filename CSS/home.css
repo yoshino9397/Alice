@@ -357,26 +357,38 @@ a {
 }
 
 .world p {
-  margin: 3% 0 0 0;
+  margin: 8% 0 0 0;
   padding: 0;
   font-size: 1.7em;
   font-family: "Bilbo Swash Caps";
 }
 
 .world .king {
+  position: absolute;
   margin: 4% 0 0% 3%;
-  padding: 0%;
+  padding: 0;
   font-size: 1.8em;
   font-family: "Fredericka the Great";
+  z-index: 12;
+}
+
+.world .kingp {
+  position: absolute;
+  margin: 15% 0 0 0;
+  padding: 0;
+  font-size: 1.7em;
+  font-family: "Bilbo Swash Caps";
+  z-index: 12;
 }
 
 .world .img1 {
   position: absolute;
-  margin: -15% 0 0 30%;
+  margin: 0% 0 0 40%;
   padding: 0%;
-  width: 45%;
-  -webkit-transform: rotate(100deg);
-          transform: rotate(100deg);
+  width: 30%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  z-index: 10;
 }
 
 .alice .nokori {
@@ -477,5 +489,23 @@ a {
   font-family: "Bilbo Swash Caps";
   margin: 5% 0 0 0;
   padding: 0%;
+}
+
+.with .haguruma {
+  position: absolute;
+  margin: -25% 0 0 60%;
+  padding: 0%;
+  width: 37%;
+  -webkit-transform: rotate(-80deg);
+          transform: rotate(-80deg);
+}
+
+.with .shizuku {
+  position: absolute;
+  margin: 10% 0 0 0%;
+  padding: 0%;
+  width: 37%;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
 }
 /*# sourceMappingURL=home.css.map */
