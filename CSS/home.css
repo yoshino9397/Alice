@@ -268,16 +268,37 @@ a {
 
 .story .img1 {
   position: absolute;
-  margin: 55% 0 0 0;
+  margin: 60% 0 0 0;
   padding: 0%;
 }
 
 .story .img2 {
   position: absolute;
-  margin: 58% 0 0 10%;
+  margin: 65% 0 0 10%;
   padding: 0%;
   -webkit-filter: sepia(30%);
           filter: sepia(30%);
+  width: 50%;
+}
+
+.story .kusuri {
+  position: absolute;
+  margin: 5% 0 0 50%;
+  padding: 0%;
+  width: 37%;
+  -webkit-filter: sepia(20%);
+          filter: sepia(20%);
+  z-index: 20;
+}
+
+.story .shizuku {
+  position: absolute;
+  margin: 15% 0 0 45%;
+  padding: 0%;
+  width: 55%;
+  -webkit-filter: sepia(20%);
+          filter: sepia(20%);
+  z-index: 10;
 }
 
 .aboutEng {
