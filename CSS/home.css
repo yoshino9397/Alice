@@ -286,8 +286,8 @@ a {
   margin: 5% 0 0 50%;
   padding: 0%;
   width: 37%;
-  -webkit-filter: sepia(20%);
-          filter: sepia(20%);
+  -webkit-filter: sepia(40%);
+          filter: sepia(40%);
   z-index: 20;
 }
 
@@ -528,5 +528,12 @@ a {
   width: 37%;
   -webkit-transform: rotate(30deg);
           transform: rotate(30deg);
+}
+
+.fin h1 {
+  margin: 31% 0 0% 37%;
+  padding: 0%;
+  font-size: 4em;
+  font-family: "Fredericka the Great";
 }
 /*# sourceMappingURL=home.css.map */
