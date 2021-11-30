@@ -536,4 +536,20 @@ a {
   font-size: 4em;
   font-family: "Fredericka the Great";
 }
+
+.fin .purple {
+  position: absolute;
+  margin: -17% 0 0 50%;
+  padding: 0%;
+  width: 37%;
+}
+
+.fin .kusuri {
+  position: absolute;
+  margin: 30% 0 0 10%;
+  padding: 0%;
+  width: 30%;
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+}
 /*# sourceMappingURL=home.css.map */
