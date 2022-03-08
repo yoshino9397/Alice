@@ -71,7 +71,7 @@ p {
       hsla(244, 58%, 16%, 0.9),
       hsla(266, 100%, 3%, 0.4) 90%
     ),
-    url("http://inspirationhut3.inspirationhut.netdna-cdn.com/wp-content/uploads/2012/11/Old-Paper-Texture-3.jpg");
+    url(../IMAGE/HOME/Old-Paper-Texture-3.jpeg);
   position: absolute;
   top: 0;
   left: 0;
@@ -101,7 +101,7 @@ p {
   width: 100%;
   position: absolute;
   background-color: hsl(30, 40%, 70%);
-  background-image: url("http://inspirationhut3.inspirationhut.netdna-cdn.com/wp-content/uploads/2012/11/Old-Paper-Texture-3.jpg");
+  background-image: url(../IMAGE/HOME/Old-Paper-Texture-3.jpeg);
   background-size: 100% 100%;
   backface-visibility: hidden;
   overflow: auto;
@@ -196,26 +196,26 @@ a {
 }
 
 .story {
-  h2{
-  margin: 13% 0 0 30%;
-  padding: 0%;
-  font-size: 3.7em;
-  letter-spacing: 0.1em;
-  font-family: "Fredericka the Great";
+  h2 {
+    margin: 13% 0 0 30%;
+    padding: 0%;
+    font-size: 3.7em;
+    letter-spacing: 0.1em;
+    font-family: "Fredericka the Great";
   }
-  .img1{
+  .img1 {
     position: absolute;
     margin: 60% 0 0 0;
     padding: 0%;
   }
-  .img2{
+  .img2 {
     position: absolute;
     margin: 65% 0 0 10%;
     padding: 0%;
     filter: sepia(30%);
     width: 50%;
   }
-  .kusuri{
+  .kusuri {
     position: absolute;
     margin: 5% 0 0 50%;
     padding: 0%;
@@ -223,14 +223,13 @@ a {
     filter: sepia(40%);
     z-index: 20;
   }
-  .shizuku{
+  .shizuku {
     position: absolute;
     margin: 15% 0 0 45%;
     padding: 0%;
     width: 55%;
     filter: sepia(20%);
     z-index: 10;
-
   }
 }
 .aboutEng {
@@ -253,7 +252,7 @@ a {
   font-family: "Fredericka the Great";
 }
 .mainchara {
-  img{
+  img {
     position: absolute;
     width: 40%;
     margin: 26% 0 0 50%;
@@ -317,7 +316,7 @@ a {
     font-family: "Fredericka the Great";
     z-index: 12;
   }
-  .kingp{
+  .kingp {
     position: absolute;
     margin: 15% 0 0 0;
     padding: 0;
@@ -325,7 +324,7 @@ a {
     font-family: "Bilbo Swash Caps";
     z-index: 12;
   }
-  .img1{
+  .img1 {
     position: absolute;
     margin: 0% 0 0 40%;
     padding: 0%;
@@ -353,7 +352,7 @@ a {
     font-size: 1.7em;
     font-family: "Bilbo Swash Caps";
   }
-  .pink{
+  .pink {
     position: absolute;
     width: 40%;
     margin: -15% 0 0 20%;
@@ -378,26 +377,26 @@ a {
     margin: 10% 0 0 20%;
     padding: 0%;
   }
-  .works{
+  .works {
     font-size: 2em;
     font-family: "Bilbo Swash Caps";
     margin: 3% 0 0 -9%;
     padding: 0%;
   }
-  .name{
+  .name {
     font-size: 2.2em;
     font-family: "Bilbo Swash Caps";
     margin: 4% 0 8% 0;
     padding: 0%;
   }
-  .img1{
+  .img1 {
     position: absolute;
     margin: 5% 0 0 0;
     padding: 0%;
     width: 30%;
     filter: brightness(20%);
   }
-  .img2{
+  .img2 {
     position: absolute;
     margin: -15% 0 0 10%;
     padding: 0%;
@@ -423,14 +422,14 @@ a {
     margin: 5% 0 0 0;
     padding: 0%;
   }
-  .haguruma{
+  .haguruma {
     position: absolute;
     margin: -25% 0 0 60%;
     padding: 0%;
     width: 37%;
     transform: rotate(-80deg);
   }
-  .shizuku{
+  .shizuku {
     position: absolute;
     margin: 10% 0 0 0%;
     padding: 0%;
@@ -439,20 +438,20 @@ a {
   }
 }
 
-.fin{
-  h1{
+.fin {
+  h1 {
     margin: 31% 0 0% 37%;
     padding: 0%;
     font-size: 4em;
     font-family: "Fredericka the Great";
   }
-  .purple{
+  .purple {
     position: absolute;
     margin: -17% 0 0 50%;
     padding: 0%;
     width: 37%;
   }
-  .kusuri{
+  .kusuri {
     position: absolute;
     margin: 30% 0 0 10%;
     padding: 0%;
